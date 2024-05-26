@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/jsx">
+        const container = document.getElementById('root');
+        const root = ReactDOM.createRoot(container);
+
+        function Header ({author}) {
+            return ( 
+                <>
+                    <h1>QUIZ 1</h1>
+                    <p>Buatkan simple counter (alat penghitung sederhana) yang terdapat :</p>
+                    <ol>
+                        <li>Tombol untuk mengurangi Nilai.</li>
+                        <li>Value Nilai yang defaultnya itu 0</li>
+                        <li>Tombol untuk menambahkan Nilai.</li>
+                        <li>Tombol untuk mereset nilai menjadi default (0)</li>
+                    </ol>
+                    <h3>Rules :</h3>
+                    <ul>
+                        <li>tombol min tidak akan bisa digunakan apa bila nilainya adalah 0</li>
+                        <li>buat max nilai menjadi 10</li>
+                        <li>tombol reset tidak akan bisa digunakan jika nilainya default (0)</li>
+                    </ul>
+                </>
+            );
+        }
+
+        function HomePage () {
+            return (
+                <>
+                    <Header/>
+                    <button>
+                        <a href="SimpleCounter.html">Contoh Program</a>
+                    </button>
+                </>
+            );
+        }
+
+        root.render(<HomePage/>);
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            width: 100px;
+        }
+
+        .value {
+            font-size: 24px;
+            margin-bottom: 10;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/jsx">
+        const container = document.getElementById('root');
+        const root = ReactDOM.createRoot(container);
+
+        function HomePage() {
+            const [nilai, setNilai] = React.useState(0);
+
+            function handleClickMin() {
+                if (nilai > 0){
+                    setNilai(nilai - 1);
+                }else {
+                    setNilai(nilai);
+                }
+            }
+
+            function handleClickPlus() {
+                if (nilai === 10) {
+                    setNilai(nilai);
+                } else {
+                    setNilai(nilai + 1);
+                }
+            }
+
+            function handleClickReset() {
+                if (nilai === 0) {
+                    setNilai(nilai);
+                } else {
+                    setNilai(0);
+                }
+            }
+
+            const isResetDisabled = nilai === 0;
+
+            return (
+                <div className="container">
+                    <div className="buttons">
+                        <button onClick={handleClickMin}>-</button>
+                        <button onClick={handleClickPlus}>+</button>
+                    </div>
+                    <h1 className="value">{nilai}</h1>
+                    <button onClick={handleClickReset} disabled={isResetDisabled}>Reset</button>
+                </div>
+            );
+        }
+
+        root.render(<HomePage />);
+    </script>
+</body>
+</html>
