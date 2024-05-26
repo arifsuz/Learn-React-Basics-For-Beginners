@@ -4,7 +4,7 @@ Folder ini berisi berbagai file dan folder yang digunakan untuk belajar React.
 
 ## Struktur Folder
 
-Berikut adalah struktur folder `BELAJARREACT`:
+Berikut adalah struktur folder `Belajar-React-Dasar-Untuk-Pemula`:
 
 - `index.html`: Ini adalah tampilan Home Page menggunakan React DOM dengan tahap awal.
 - `quizReact1`: Folder ini berisi latihan logika untuk membuat simple counter yang berisi file:
@@ -25,7 +25,7 @@ Untuk menjalankan program ini, ikuti langkah-langkah berikut:
 
 - Sangat diwajibkan install extension yang bernama <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a>
 <img src="img/liveserver.png"/>
-` Buka file `index.html` dan klik kanan pada workspace anda, lalu klik `Open with Live Server`. Atau anda bisa gunakan shortcut dengan menekan tombol `ALT+L ALT+O`
+- Buka file `index.html` dan klik kanan pada workspace anda, lalu klik `Open with Live Server`. Atau anda bisa gunakan shortcut dengan menekan tombol `ALT+L ALT+O`
 <img src="img/image.png"/>
 
 ## Lisensi
