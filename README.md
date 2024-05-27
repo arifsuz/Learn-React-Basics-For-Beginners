@@ -1,33 +1,32 @@
-# Belajar-React-Dasar-Untuk-Pemula
+# Learn-React-Basic-For-Beginners
 
-Folder ini berisi berbagai file dan folder yang digunakan untuk belajar React.
+This folder contains various files and folders used for learning React.
 
-## Struktur Folder
+## Folder Structure
 
-Berikut adalah struktur folder `Belajar-React-Dasar-Untuk-Pemula`:
+Here is the folder structure of `Learn-React-Basics-For-Beginners`:
 
-- `index.html`: Ini adalah tampilan Home Page menggunakan React DOM dengan tahap awal.
-- `quizReact1`: Folder ini berisi latihan logika untuk membuat simple counter yang berisi file:
-    - `index.html`: file ini soal untuk quiz 1 pada tahap awal belajar React untuk membuat Simple Counter.
-    - `SimpleCounter.html`: file ini adalah contoh program Simple Counter untuk gambaran sebagai logika dari quiz.
-    - `README.md`: file ini berisi dokumentasi dari contoh program Simple Counter yang saya buat.
-- `README.md`: File ini berisi dokumentasi tentang aplikasi.
+- `index.html`: This is the Home Page view using React DOM with the initial stage.
+- `quizReact1`: This folder contains a logic exercise to create a simple counter that contains a file:
+    - `index.html`: this file is the question for quiz 1 in the early stages of learning React to create a Simple Counter.
+    - `SimpleCounter.html`: this file is an example of a Simple Counter program for illustration as the logic of the quiz.
+    - `README.md`: this file contains the documentation of the Simple Counter example program that I created.
+- `README.md`: This file contains documentation about the application.
 
-## Cara Menjalankan Program
+## How to Run the Program
 
-Untuk menjalankan program ini, ikuti langkah-langkah berikut:
+To run this program, follow these steps:
 
-1. Buka terminal ketik perintah `git clone https://github.com/arifsuz/Belajar-React-Dasar-Untuk-Pemula.git`
-2. Buka folder `Belajar-React-Dasar-Untuk-Pemula` dengan perintah `cd Belajar-React-Dasar-Untuk-Pemula` pada terminal.
-3. Lalu buka code editor anda dan arahkan ke folder tersebut, jika kalian menggunakan Visua Studi Code cukup ketikan perintah `code .` pada terminal yang sudah melakukan perintah di point nomor 2.
+1. Open a terminal type the command `git clone https://github.com/arifsuz/Belajar-React-Dasar-Untuk-Pemula.git`
+2. Open the folder `Learning-React-Basics-For-Beginners` with the command `cd Learning-React-Basics-For-Beginners` in the terminal.
+3. Then open your code editor and navigate to the folder, if you are using Visua Studi Code just type the command `code .` in the terminal that has done the command in point number 2.
 
-## Cara Menggunakan Program
+## How to use the program
 
-- Sangat diwajibkan install extension yang bernama <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a>
+- It is mandatory to install an extension called <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a>
 <img src="img/liveserver.png"/>
-- Buka file `index.html` dan klik kanan pada workspace anda, lalu klik `Open with Live Server`. Atau anda bisa gunakan shortcut dengan menekan tombol `ALT+L ALT+O`
+- Open file `index.html` and right-click on your workspace, then click `Open with Live Server`. Or you can use a shortcut by pressing the `ALT+L ALT+O`
 <img src="img/image.png"/>
 
-## Lisensi
-
-Program ini dilisensikan di bawah [MIT License](LICENSE).
+## License
+This program is licensed under [MIT License](LICENSE).
